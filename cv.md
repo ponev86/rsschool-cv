@@ -7,7 +7,7 @@
 [Instagram](https://www.instagram.com/ponev86/)
 <!--- ## About --->
 
-## Hard skils
+## Skils
 * HTML5, CSS3 (LESS, SASS, SCSS) 
 * JS (ES6+), jQuery 
 * Figma, PhotoShop
@@ -16,6 +16,17 @@
 
 ## My GitHub account
 [GitHub](https://github.com/ponev86)
+
+## Code examples
+
+```
+function factorial(n) {
+  if (n === 0) return 1
+  return n * factorial(n-1)
+}
+
+const even_or_odd = number => number % 2 == 0 ? "Even" : "Odd"
+```
 
 ## Experience
 **ICIT-corp** - _From 2009 to 2018:_ I worked on position Web Developer and HTML Developer\
