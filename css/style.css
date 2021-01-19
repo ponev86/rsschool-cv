@@ -55,43 +55,41 @@ header {
   overflow: hidden;
 }
 
-.info {}
-
-.info__position {
+.position {
   color: var(--light-gray);
   margin-bottom: 5px;
 }
 
-.info__location {
+.location {
   color: var(--orange-color);
   margin-bottom: 5px;
 }
 
-.info__contacts {
+.contacts {
   font-size: 0;
 
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.info__contacts li {
+.contacts__item {
   display: inline-block;
   margin-right: 15px;
 
   font-size: 18px;
 }
 
-.info__item-contact:hover {
+.contacts__item-link:hover {
   opacity: 0.7;
 }
 
-.info__icons {
+.icons {
   display: inline-block;
   height: 30px;
 
   vertical-align: middle;
 }
-.info__icons_size_sm {
+.icons_size_sm {
   height: 20px;
   vertical-align: -3px;
 }
