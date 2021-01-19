@@ -9,6 +9,7 @@
   --main-text-color: #fff;
   --orange-color: #ffc107;
   --light-gray: #aaa;
+  --code-color: #0400ff;
 }
 
 body {
@@ -26,6 +27,17 @@ h1 {
 
 h2 {
   font: 700 22px 'Roboto', sans-serif;
+  color: var(--orange-color);
+  margin: 0 0 10px;
+}
+
+h3 {
+  font: 700 16px 'Roboto', sans-serif;
+  color: var(--light-gray)
+}
+
+p {
+  margin: 5px 5px 5px 15px;
 }
 
 .container {
@@ -92,4 +104,18 @@ header {
 .icons_size_sm {
   height: 20px;
   vertical-align: -3px;
+}
+
+section {
+  padding: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px dotted var(--orange-color);
+}
+
+pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 15px;
+  background-color: var(--light-gray);
+  color: var(--code-color);
 }
