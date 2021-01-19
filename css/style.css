@@ -10,6 +10,7 @@
   --orange-color: #ffc107;
   --light-gray: #aaa;
   --code-color: #0400ff;
+  --footer-bg-color: #000;
 }
 
 body {
@@ -38,6 +39,15 @@ h3 {
 
 p {
   margin: 5px 5px 5px 15px;
+}
+
+a {
+  color: var(--orange-color);
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .container {
@@ -101,15 +111,24 @@ header {
 
   vertical-align: middle;
 }
+
 .icons_size_sm {
   height: 20px;
   vertical-align: -3px;
+}
+
+.icons_mr_15 {
+  margin-right: 15px;
 }
 
 section {
   padding: 30px;
   margin-bottom: 30px;
   border-bottom: 1px dotted var(--orange-color);
+}
+section:last-child {
+  margin-bottom: 0;
+  border-bottom: 0;
 }
 
 pre {
@@ -118,4 +137,13 @@ pre {
   padding: 15px;
   background-color: var(--light-gray);
   color: var(--code-color);
+}
+
+footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  text-align: center;
+
+  background-color: var(--footer-bg-color);
 }
