@@ -1,101 +1,162 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/normalize.css" />
-  <link rel="stylesheet" href="./css/style.css">
-  <title>Evgenii Ponomarenko</title>
-</head>
-<body>
-  <div class="container">
-    <header>
-      <img class="avatar" src="./assets/img/avatar.png" alt="Evgenii Ponomarenko">
-      <div>
-        <h1>Evgenii Ponomarenko</h1>
-        <div class="position">Junior Frontend Developer</div>
-        <div class="location">
-          <img class="icons icons_size_sm" src="./assets/icons/location.svg" alt="Russia, Ulan-Ude"> Russia, Ulan-Ude
-        </div>
-        <ul class="contacts">
-          <li class="contacts__item">
-            <a class="contacts__item-link" href="https://github.com/ponev86" target="_blank">
-              <img class="icons" src="./assets/icons/github.svg" alt="GitHub">
-            </a>
-          </li>
-          <li class="contacts__item">
-            <a class="contacts__item-link" href="mailto:ponomarenko86@yandex.ru" target="_blank">
-              <img class="icons" src="./assets/icons/email.svg" alt="E-mail">
-            </a>
-          </li>
-          <li class="contacts__item">
-            <a class="contacts__item-link" href="https://t.me/ponev86" target="_blank">
-              <img class="icons" src="./assets/icons/telegram.svg" alt="Telegram">
-            </a>
-          </li>
-          <li class="contacts__item">
-            <a class="contacts__item-link" href="https://www.instagram.com/ponev86/" target="_blank">
-              <img class="icons" src="./assets/icons/instagram.svg" alt="Instagram">
-            </a>
-          </li>
-        </ul>
-      </div>
-    </header>
-    <main>
-      <section>
-        <h2>About me</h2>
-        <p>I love to study and learn something new.</p>
-        <p>My strengths: curiosity, perseverance, ability to find solutions and solve problems, good sense of humor</p>
-      </section>
-      <section>
-        <h2>Skils</h2>
-        <ul>
-          <li>HTML5, CSS3 (LESS, SASS, SCSS)</li>
-          <li>JS (ES6+), jQuery</li>
-          <li>Figma, PhotoShop</li>
-          <li>ReactJS + Redux</li>
-          <li>GIT</li>
-        </ul>
-      </section>
-      <section>
-        <h2>Code examples</h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Evgenii Ponomarenko</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img
+          class="avatar"
+          src="./assets/img/avatar.png"
+          alt="Evgenii Ponomarenko"
+        />
         <div>
-          <pre><code>function factorial(n) {
+          <h1>Evgenii Ponomarenko</h1>
+          <div class="position">Junior Frontend Developer</div>
+          <div class="location">
+            <img
+              class="icons icons_size_sm"
+              src="./assets/icons/location.svg"
+              alt="Russia, Ulan-Ude"
+            />
+            Russia, Ulan-Ude
+          </div>
+          <nav>
+            <ul class="contacts">
+              <li class="contacts__item">
+                <a
+                  class="contacts__item-link"
+                  href="https://github.com/ponev86"
+                  target="_blank"
+                >
+                  <img
+                    class="icons"
+                    src="./assets/icons/github.svg"
+                    alt="GitHub"
+                  />
+                </a>
+              </li>
+              <li class="contacts__item">
+                <a
+                  class="contacts__item-link"
+                  href="mailto:ponomarenko86@yandex.ru"
+                  target="_blank"
+                >
+                  <img
+                    class="icons"
+                    src="./assets/icons/email.svg"
+                    alt="E-mail"
+                  />
+                </a>
+              </li>
+              <li class="contacts__item">
+                <a
+                  class="contacts__item-link"
+                  href="https://t.me/ponev86"
+                  target="_blank"
+                >
+                  <img
+                    class="icons"
+                    src="./assets/icons/telegram.svg"
+                    alt="Telegram"
+                  />
+                </a>
+              </li>
+              <li class="contacts__item">
+                <a
+                  class="contacts__item-link"
+                  href="https://www.instagram.com/ponev86/"
+                  target="_blank"
+                >
+                  <img
+                    class="icons"
+                    src="./assets/icons/instagram.svg"
+                    alt="Instagram"
+                  />
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <section>
+          <h2>About me</h2>
+          <p>I love to study and learn something new.</p>
+          <p>
+            My strengths: curiosity, perseverance, ability to find solutions and
+            solve problems, good sense of humor
+          </p>
+        </section>
+        <section>
+          <h2>Skils</h2>
+          <ul>
+            <li>HTML5, CSS3 (LESS, SASS, SCSS)</li>
+            <li>JS (ES6+), jQuery</li>
+            <li>Figma, PhotoShop</li>
+            <li>ReactJS + Redux</li>
+            <li>GIT</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Code examples</h2>
+          <div>
+            <pre><code>function factorial(n) {
   if (n === 0) return 1
   return n * factorial(n-1)
 }
 
 const even_or_odd = number => number % 2 == 0 ? "Even" : "Odd"</code></pre>
-        </div>
-      </section>
-      <section>
-        <h2>Experience</h2>
-        <article>
-          <h3>ICIT-corp</h3>
-          <p><strong>Web Developer and HTML Developer</strong> - from 2009 to 2018</p>
-        </article>
-        <article>
-          <h3>BW</h3>
-          <p><strong>HTML Developer and Junior Frontend Developer</strong> - from October 2018 to March 2019</p>
-        </article>  
-        
-      </section>
-      <section>
-        <h2>Education</h2>
-        <p><strong>University</strong> <i>(2004 - 2009)</i>: TNU of V.I. Vernadskiy in Sevastopol city</p>
-        <p><strong>English courses</strong> <i>(2018)</i>: NLE-school in Melitopol city</p>
-      </section>
-      <section>
-        <h2>English language</h2>
-        <p>Graduated from English courses at NLE school.</p>
-        <p>My English - A2</p>  
-      </section>
-    </main>
-    <footer>
-      <a href="https://github.com/ponev86" target="_blank">
-        <img class="icons icons_mr_15" src="assets/icons/github.svg" alt="GitHub link">https://github.com/ponev86
-      </a>
-    </footer>
-  </div>
-</body>
+          </div>
+        </section>
+        <section>
+          <h2>Experience</h2>
+          <article>
+            <h3>ICIT-corp</h3>
+            <p>
+              <strong>Web Developer and HTML Developer</strong> - from 2009 to
+              2018
+            </p>
+          </article>
+          <article>
+            <h3>BW</h3>
+            <p>
+              <strong>HTML Developer and Junior Frontend Developer</strong> -
+              from October 2018 to March 2019
+            </p>
+          </article>
+        </section>
+        <section>
+          <h2>Education</h2>
+          <p>
+            <strong>University</strong> <i>(2004 - 2009)</i>: TNU of V.I.
+            Vernadskiy in Sevastopol city
+          </p>
+          <p>
+            <strong>English courses</strong> <i>(2018)</i>: NLE-school in
+            Melitopol city
+          </p>
+        </section>
+        <section>
+          <h2>English language</h2>
+          <p>Graduated from English courses at NLE school.</p>
+          <p>My English - A2</p>
+        </section>
+      </main>
+      <footer>
+        <a href="https://github.com/ponev86" target="_blank">
+          <img
+            class="icons icons_mr_15"
+            src="assets/icons/github.svg"
+            alt="GitHub link"
+          />https://github.com/ponev86
+        </a>
+      </footer>
+    </div>
+  </body>
 </html>
